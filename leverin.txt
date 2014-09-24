@@ -1,0 +1,73 @@
+Inleveren
+_________________________________________
+
+Functioneel Rapport
+Technisch Rapport
+Activity diagram
+Use Case
+Sequentie Diagram
+Entity Relationsship Diagram
+
+Verslag over PVB
+_________________________________________
+
+Presentatie aan het einde van de week
+
+Kerntaak 1 presenteren. ( Vrijdag )
+Kerntaak 2 presenteren. ( Vrijdag 10 November)
+
+
+
+Project: Project uren registeren.
+
+Setting: Software firma met veel software engineers.
+40 - 50 Engineers, binnen het bedrijf lopen meerder prokecten.
+Voor elke opdracht die word aangenomen word een project gemaakt.
+
+Project : Naam -> mensen gekoppelt aan project.
+1 persoon project leider . 
+Rest is medewerker en kunnen taken worden toegewezen.
+De project taken worden door de leider verdeelt.
+
+Stages: plannen, realiseren, testen.
+
+Uren worden geregistreert aan het project, uren aan taak.
+Ex: 4 uur gewerkt aan Taak 5 van Project 2.
+Taak 5: 4 uur, Project 2 = +5 uur.
+
+Er is een kans voor vragen direct na het ontvangen van de opdracht.
+Er word weinig informatie verteld, je moet zelf vragen voor meer informatie.
+
+Permissies: Medewerker, Projectleider
+
+
+Taken urenregistratie
+
+Users: ( Software Engineers )
+	User id
+	Voornaam
+	Achternaam
+	Gebruikersnaam
+	Wachtwoord
+	Permissie
+	Foto
+
+Projecten:
+	ProjectID
+	ProjectNaam
+	ProjectenOmscrhijving
+	Begindatum
+	Einddatum
+	Afgesloten
+	ProjectLeider
+	Lijst van Medewerkers
+
+Taken an een software engineer
+	TaakID
+	ProjectID
+	Medewerker ID
+	Taak Naam
+	Taakomschrijving
+
+
+
